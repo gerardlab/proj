@@ -1,0 +1,26 @@
+---
+title: "Analysis Template"
+author: "David and Student"
+date: '`r Sys.Date()`'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+1. Brief description of what I did.
+2. Brief conclusion.
+3. Questions I need to ask David.
+
+# Analysis
+
+Here is my much longer analysis.
+
+First I will source some reusable code
+```{r}
+source("../code/reusable_code.R")
+```
+
